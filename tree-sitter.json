@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "klein",
+      "camelcase": "Klein",
+      "scope": "source.klein",
+      "file-types": [
+        ".kl"
+      ],
+      "injection-regex": "^klein$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "LGPL",
+    "description": "Klein grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Violet Iapalucci",
+        "email": "violet_iapalucci@outlook.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/klein-language/tree-sitter-klein"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
