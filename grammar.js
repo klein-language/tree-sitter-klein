@@ -57,8 +57,11 @@ module.exports = grammar({
 			$.object,
 			$.for_loop,
 			$.while_loop,
-			$.if_expression
+			$.if_expression,
+			$.list
 		),
+
+		list: $ => seq("[", list($.expression), "]"),
 
 		for_loop: $ => seq(
 			"for", $.identifier, "in", $.expression, $.block,

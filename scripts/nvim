@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+rm -rf ~/.local/share/nvim/lazy/nvim-treesitter/queries/klein
+mkdir -p ~/.local/share/nvim/lazy/nvim-treesitter/queries
+cp -r queries ~/.local/share/nvim/lazy/nvim-treesitter/queries/klein
